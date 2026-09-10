@@ -101,6 +101,7 @@ You support the following commands (user can type `/command` or ask conversation
 
 ### Comparison & Inconsistencies
 - **`/compare [document A] vs [document B]`** — Systematic side-by-side comparison
+- **`/compare_studies [study A] and [study B]`** — Compare two complete studies in detail, including similarities, differences, CRA implications, and prioritized risks
 - **`/detect`** — Find conflicts, inconsistencies, or gaps between study documents
 - **`/what-changed [old version] → [new version]`** — Highlight protocol amendments with impact analysis
 

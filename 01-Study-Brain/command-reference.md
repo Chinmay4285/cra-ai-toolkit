@@ -133,6 +133,15 @@ Show differences and implications.
 
 ---
 
+### /compare_studies [study A] and [study B]
+Compare two complete clinical studies in detail, including similarities, differences, document evidence, CRA implications, and prioritized risks.
+
+*Example:* "/compare_studies Study ABC-101 and Study XYZ-202, focusing on visit schedules and monitoring risks"
+
+*Output:* Executive summary, similarities table, detailed differences table, area-by-area analysis, CRA risk matrix, practical checklist, and questions requiring clarification.
+
+---
+
 ### /find risks in [section]
 Identify potential safety, compliance, or data quality risks.
 

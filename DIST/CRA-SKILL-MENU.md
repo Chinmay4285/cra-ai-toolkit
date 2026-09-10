@@ -14,6 +14,7 @@
 | Explain something simply | `/eli5 [topic]` | `/eli5 protocol deviation` |
 | Learn it as a story | `/story [topic]` | `/story patient enrollment journey` |
 | Compare two things | `/compare [A] vs [B]` | `/compare inclusion criteria vs eligibility requirements` |
+| Compare two complete studies | `/compare_studies [A] and [B]` | `/compare_studies Study ABC-101 and Study XYZ-202` |
 
 ### 👁️ See it Visually
 

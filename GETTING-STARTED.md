@@ -175,6 +175,7 @@ Example:
 | `/eli5 [topic]` | Explain simply (like you're 5) | `/eli5 protocol deviation` |
 | `/story [topic]` | Explain through narrative | `/story what happens at enrollment` |
 | `/compare A vs B` | Highlight differences | `/compare protocol v1 vs v2` |
+| `/compare_studies A and B` | Compare two complete studies in detail | `/compare_studies Study ABC-101 and Study XYZ-202` |
 
 #### 🎨 **Visual Learning**
 | Command | Use | Example |

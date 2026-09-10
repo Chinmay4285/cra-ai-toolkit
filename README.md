@@ -138,6 +138,7 @@ Once set up, you can use powerful commands in Claude:
 | Create flashcards | `/quizlet eligibility criteria` |
 | Take a quiz | `/quiz me on visit schedule` |
 | Monitoring visit prep | `/visit-prep` |
+| Compare two complete studies | `/compare_studies Study A and Study B` |
 | Find knowledge gaps | `/find-gaps in my understanding` |
 | Practice scenarios | `/simulate a site issue` |
 | Compare documents | `/compare protocol vs amendment` |

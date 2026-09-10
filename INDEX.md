@@ -94,6 +94,7 @@ Use this index to find the exact prompt or guide you need for your situation.
 |------|------|---------|
 | Inconsistencies | [06-Cross-Document/inconsistency-detector.md](06-Cross-Document/inconsistency-detector.md) | Find conflicts between documents |
 | Compare documents | [06-Cross-Document/compare-documents.md](06-Cross-Document/compare-documents.md) | Systematic comparison |
+| Compare two studies | [06-Cross-Document/compare-studies.md](06-Cross-Document/compare-studies.md) | Compare complete studies, similarities, differences, CRA implications, and risks |
 | Requirements matrix | [06-Cross-Document/requirement-matrix.md](06-Cross-Document/requirement-matrix.md) | Table comparing across documents |
 | Changes between versions | [06-Cross-Document/change-impact-analysis.md](06-Cross-Document/change-impact-analysis.md) | Old vs. new protocol |
 | What changed | [06-Cross-Document/what-changed-detector.md](06-Cross-Document/what-changed-detector.md) | Marked-up changes |
