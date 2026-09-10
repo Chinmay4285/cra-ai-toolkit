@@ -1,5 +1,18 @@
 # CRA AI Toolkit: The AI Operating System for Clinical Research Associates
 
+## Get Started in Claude in 5 Minutes
+
+This toolkit is production-ready with professional, non-technical documentation that makes it easy for any CRA to get started:
+
+1. Download the [`DIST/`](DIST/) folder
+2. Open [`INSTALL.md`](INSTALL.md)
+3. Copy-paste the two setup files into Claude
+4. Start using your CRA Copilot in 5 minutes
+
+**No coding, GitHub, or technical knowledge required.** Follow the setup guide, upload your authorized study documents to a Claude Project, and begin asking questions.
+
+For the shortest path, open [`DIST/START-HERE.md`](DIST/START-HERE.md). For detailed instructions, see [`INSTALL.md`](INSTALL.md).
+
 Welcome to a **professional, interconnected AI system** designed specifically for Clinical Research Associates (CRAs) working with Claude.
 
 This toolkit transforms how you:
