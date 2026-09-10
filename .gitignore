@@ -1,0 +1,72 @@
+# Git ignore file for CRA AI Toolkit
+# Prevents accidental upload of secrets, sensitive data, and build artifacts
+
+# Operating System
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+*~
+
+# IDE & Editor
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+*.code-workspace
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.Python
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Secrets & Credentials
+.env
+.env.local
+*.key
+*.pem
+*.p12
+*.pfx
+secrets/
+credentials/
+tokens/
+
+# Sensitive Data (NEVER commit)
+# - Patient data (any form)
+# - Personal identifiable information (PII)
+# - Medical records
+# - Actual study data
+patient-data/
+pii/
+test-data-with-identifiers/
+
+# Logs
+logs/
+*.log
+
+# Temporary files
+*.tmp
+*.temp
+.cache/
+tmp/
+
+# OS-specific
+.AppleDouble
+.LSOverride
+$RECYCLE.BIN/
+
+# Node (if any frontend components added)
+node_modules/
+npm-debug.log
+
+# Build outputs
+dist/
+build/
+*.egg-info/
+
+# Don't ignore DIST folder (it's the distribution package)
+!DIST/
+!DIST/**/*
