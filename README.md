@@ -77,6 +77,115 @@ As needed, use additional prompts from the toolkit:
 - `/quiz` → Test yourself
 - `/compare` → Compare documents
 - `/visit-prep` → Prepare for monitoring visits
+---
+
+## 🚀 Getting Started with Claude
+
+### The Fastest Way (5 Minutes, Copy-Paste Only)
+
+1. **Go to claude.ai** (or your organization's Claude access)
+2. **Create a New Project** called `Study [Name] — CRA Copilot`
+3. **Upload your study documents** (Protocol, amendments, etc.)
+4. **Open the `DIST/` folder** and copy-paste these files into Claude:
+    - `MASTER-CRA-PROMPT.md` → Paste into **Project Instructions**
+    - `STUDY-CONTEXT-TEMPLATE.md` → Fill in + paste into chat
+5. **Done!** Start asking Claude questions about your study
+
+### That's It!
+
+You now have a personal Study & Learning Copilot that can:
+- Explain protocols and procedures
+- Create quizzes and flashcards
+- Generate visit preparation checklists
+- Find inconsistencies and gaps
+- Answer your questions anytime
+- Help you develop CRA judgment
+
+**No GitHub, no coding, no technical knowledge required.** Just Claude.
+
+---
+
+## 📖 Detailed Setup Guide
+
+For step-by-step instructions, see **`DIST/CLAUDE-SETUP.md`** (included in the distribution package).
+
+---
+
+## 🎯 Using Your CRA Copilot
+
+Once set up, you can use powerful commands in Claude:
+
+| What You Want | Type This |
+|---|---|
+| Explain a concept | `/teach inclusion criteria` |
+| Simple explanation | `/eli5 protocol deviation` |
+| Visual diagram | `/diagram patient journey` |
+| Story format | `/story what happens at enrollment` |
+| One-page reference | `/onepage critical procedures` |
+| Create flashcards | `/quizlet eligibility criteria` |
+| Take a quiz | `/quiz me on visit schedule` |
+| Monitoring visit prep | `/visit-prep` |
+| Find knowledge gaps | `/find-gaps in my understanding` |
+| Practice scenarios | `/simulate a site issue` |
+| Compare documents | `/compare protocol vs amendment` |
+
+Or just ask naturally: *"Tell me about the primary endpoint"* or *"What should I look for during monitoring?"*
+
+---
+
+## 📁 How to Use This Repository
+
+**For Clinical Research Associates (CRAs):**
+- Download the **`DIST/`** folder (that's all you need!)
+- See `DIST/START-HERE.md` for quick orientation
+- See `DIST/CLAUDE-SETUP.md` for detailed setup
+
+**For Managers/Training Teams:**
+- Customize `00-START-HERE/MASTER-CRA-PROMPT.md` for your study specifics
+- Share the entire repository or just the `DIST/` folder with your team
+- Use `DIST/EXAMPLE-WORKFLOWS.md` to show how it works
+
+**For Developers/Researchers:**
+- See `INDEX.md` for complete file structure and descriptions
+- See `PHASE-2-COMPLETION-SUMMARY.md` for technical details
+
+---
+
+## ❓ Common Questions
+
+**Q: Is my study data safe?**  
+A: You control what you upload to Claude. Follow your organization's policies for document sharing. See `DIST/PRIVACY-AND-SAFE-USE.md` for guidance.
+
+**Q: Do I need to be technical?**  
+A: No! This is copy-paste into Claude. No coding or GitHub knowledge needed.
+
+**Q: Can I customize this for my study?**  
+A: Yes! The Master Prompt and Study Context are templates you fill in.
+
+**Q: What if Claude is slow or unavailable?**  
+A: This toolkit works whenever Claude is available. No special setup needed.
+
+**Q: Can I share this with my team?**  
+A: Yes! Share the `DIST/` folder or the entire repository. Everyone can set up independently in Claude.
+
+---
+
+## 📞 Support & More Information
+
+- **Quick Start:** See `DIST/START-HERE.md`
+- **Detailed Setup:** See `DIST/CLAUDE-SETUP.md`
+- **Example Workflows:** See `DIST/EXAMPLE-WORKFLOWS.md`
+- **Command Reference:** See `DIST/CRA-SKILL-MENU.md`
+- **Safety & Privacy:** See `DIST/PRIVACY-AND-SAFE-USE.md`
+- **Full Index:** See `INDEX.md` (technical details and file structure)
+
+---
+
+## 🎓 Who Built This?
+
+This toolkit was designed by CRAs and optimized specifically for how Clinical Research Associates work. Every prompt has been tested and refined for practical real-world use.
+
+**Key Principle:** Your domain expertise matters more than AI. This system supports your judgment, it doesn't replace it.
 
 ---
 
