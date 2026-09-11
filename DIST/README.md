@@ -9,7 +9,8 @@ You don't need anything else from the repository.
 | File | What It Is | Use When |
 | **START-HERE.md** | Your entry point | You're new to this toolkit |
 | **MASTER-CRA-PROMPT.md** | The core prompt for Claude | Setting up Claude Projects |
-| **CLAUDE-SETUP.md** | Step-by-step setup guide | Installing for the first time |
+| **CLAUDE-SETUP.md** | Claude-specific setup guide | Installing in Claude |
+| **LLM-SETUP.md** | ChatGPT, Claude, Gemini, Copilot, and other LLM setup | Using the toolkit beyond Claude |
 | **STUDY-CONTEXT-TEMPLATE.md** | Study information template | Creating your study context |
 | **CRA-SKILL-MENU.md** | Quick reference card | You need a reminder of available commands |
 | **EXAMPLE-WORKFLOWS.md** | Real usage examples | You want to see how it works |
@@ -43,11 +44,15 @@ Add your study information so Claude understands your specific study.
 **You need:**
 1. `MASTER-CRA-PROMPT.md` — Paste into Claude Project Instructions
 2. `STUDY-CONTEXT-TEMPLATE.md` — Fill in and paste into Claude
+
+### You're Using ChatGPT, Gemini, Copilot, or Another LLM
+**Read `LLM-SETUP.md`.** It explains where to paste the Master Prompt, where to upload study documents, how to use commands when slash commands are unsupported, and how to request graphical diagrams.
 ### You Need Quick Help
 **Use these:**
 - `CRA-SKILL-MENU.md` — "What command should I use?"
 - `EXAMPLE-WORKFLOWS.md` — "Show me how to do X"
 - `PRIVACY-AND-SAFE-USE.md` — "Is this safe?"
+- `LLM-SETUP.md` — "How do I use this with ChatGPT, Gemini, Copilot, or another LLM?"
 
 ---
 ## 💾 How to Distribute
@@ -76,9 +81,10 @@ Absolutely! Customize the templates and guides to match your organization's need
 Yes. Print `CRA-SKILL-MENU.md` and `STUDY-CONTEXT-TEMPLATE.md` for easy reference.
 
 ### Where do I paste MASTER-CRA-PROMPT.md?
-Into Claude's **Project Instructions** (not in regular chat).
+Into the AI platform's highest-priority instruction area: **Project Instructions**, **Custom GPT Instructions**, **Gem Instructions**, **System Prompt**, or the first message of a dedicated chat.
 
 See `CLAUDE-SETUP.md` for exact steps.
+See `LLM-SETUP.md` for ChatGPT, Gemini, Copilot, and other LLMs.
 ### Is this everything I need to use Claude as a CRA Copilot?
 Yes. These 7 files + Claude = Complete CRA AI system.
 

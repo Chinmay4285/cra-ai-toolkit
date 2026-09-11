@@ -11,6 +11,8 @@ You do **NOT** need to know anything about GitHub, programming, or technical too
 ### Step 1: Open Claude
 Go to **claude.ai** (or use Claude through your organization's approved system).
 
+**Using ChatGPT, Gemini, Microsoft Copilot, or another approved LLM?** Open `LLM-SETUP.md` instead. The same toolkit works there using that platform's project, custom instructions, system prompt, or dedicated chat.
+
 ### Step 2: Create a Project for This Study
 Create a new Claude **Project** (not a regular chat).
 

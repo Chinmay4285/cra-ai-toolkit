@@ -11,7 +11,7 @@ This toolkit is production-ready with professional, non-technical documentation 
 
 **No coding, GitHub, or technical knowledge required.** Follow the setup guide, upload your authorized study documents to a Claude Project, and begin asking questions.
 
-For the shortest path, open [`DIST/START-HERE.md`](DIST/START-HERE.md). For detailed instructions, see [`INSTALL.md`](INSTALL.md).
+For the shortest path, open [`DIST/START-HERE.md`](DIST/START-HERE.md). For detailed Claude instructions, see [`INSTALL.md`](INSTALL.md). To use the same `DIST/` package with ChatGPT, Gemini, Microsoft Copilot, or another approved LLM, see [`DIST/LLM-SETUP.md`](DIST/LLM-SETUP.md).
 
 Welcome to a **professional, interconnected AI system** designed specifically for Clinical Research Associates (CRAs) working with Claude.
 

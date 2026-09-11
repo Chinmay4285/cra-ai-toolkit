@@ -11,6 +11,7 @@ Use this index to find the exact prompt or guide you need for your situation.
 | Overview of toolkit | [README.md](README.md) | Understand what this is and why to use it |
 | Quick workflows | [QUICK-START.md](QUICK-START.md) | Find your situation; get quick steps to success |
 | How to use with Claude | [CLAUDE-USAGE-GUIDE.md](CLAUDE-USAGE-GUIDE.md) | Practical tips for best results |
+| How to use with other LLMs | [DIST/LLM-SETUP.md](DIST/LLM-SETUP.md) | Setup for ChatGPT, Gemini, Copilot, and other approved assistants |
 
 ---
 
