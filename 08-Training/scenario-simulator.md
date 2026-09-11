@@ -166,6 +166,13 @@ As you improve, ask for:
 ### Complex Multi-Factor Scenarios
 "Give me complex scenarios where multiple things are happening at once"
 
+### Cross-Study and Cross-Document Scenarios
+"Give me scenarios where two studies have similar visit names but different eligibility, safety, or endpoint requirements"
+
+"Give me a scenario where the current protocol conflicts with a study manual and I must identify what is missing before escalating"
+
+"Give me a scenario where a site uses the wrong study's procedure because the studies look similar"
+
 ### Judgment Calls
 "Give me scenarios where there's no obviously right answer"
 
@@ -222,6 +229,8 @@ In your Study Brain conversation, ask:
 - `/scenario quiz about [topic]`
 
 Claude will present scenarios using your study context, increasing realism and relevance.
+
+For a structured library of robust practice cases, use `CRA-SCENARIO-CATALOG.md`.
 
 ---
 

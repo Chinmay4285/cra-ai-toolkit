@@ -12,7 +12,7 @@ When you learn better visually or when a concept involves steps, decisions, or r
 - What you want visualized
 
 ## EXPECTED OUTPUT
-A clear diagram (ASCII, flowchart, or Mermaid format) that shows the concept visually, followed by a detailed explanation.
+A clear, graphical diagram followed by a detailed explanation. Prefer Mermaid for flowcharts, timelines, decision trees, swim lanes, and relationship maps. Use a Markdown table or structured text only when it communicates the information more clearly than a diagram.
 
 ---
 
@@ -36,14 +36,31 @@ Choose the BEST diagram type for what's being explained:
 - Concept Map: For how ideas relate
 - Process Flow: For what happens when and why
 - Swim Lane: For activities by role/timepoint
+- Gantt or timeline: For visit windows, assessments, and study milestones
+- State diagram: For participant status, treatment status, or issue lifecycle
+- Sankey-style flow: For screening, disposition, or patient flow when counts are available
 
 DIAGRAM REQUIREMENTS:
 ✓ Clear, easy to understand at a glance
 ✓ Labeled with study-specific terminology
 ✓ Shows the flow or relationship being explained
-✓ Color/format distinguishes different elements if possible (ASCII or Mermaid)
+✓ Prefer a renderable Mermaid diagram inside a ```mermaid code block
+✓ Use subgraphs, decision nodes, labels, and class styling when they improve comprehension
+✓ Use consistent visual meaning: blue for study flow, green for completed/eligible, amber for review points, red for risks or stops
+✓ Include a legend when color, shapes, or line styles carry meaning
+✓ Keep nodes concise and move explanations below the diagram
 ✓ Includes critical decision points or timing information
 ✓ Is study-specific, not generic
+✓ Includes a plain-text fallback only if Mermaid cannot represent the content or may not render
+
+GRAPHICAL OUTPUT RULES:
+- Render the primary visual first; do not bury it after a long explanation.
+- Use one diagram for one question. Split large visuals into an overview plus focused diagrams.
+- Use arrows with labels for transitions, decisions, and handoffs.
+- Put roles in swim lanes when responsibility changes between participant, site, CRA, sponsor, lab, or safety team.
+- Show timing explicitly using dates, windows, week numbers, or relative time when provided.
+- Never invent colors, counts, thresholds, dates, or process steps that are not in the source documents.
+- If a diagram would be misleading because source information is incomplete, show an explicit "Unknown / verify" node.
 
 EXPLANATION AFTER THE DIAGRAM:
 1. "This diagram shows..." (overview)
@@ -60,13 +77,29 @@ SOURCE GROUNDING:
 
 DO NOT:
 ✗ Create overly complex diagrams
-✗ Use generic flowchart shapes; use content-specific formatting
+✗ Use generic flowchart shapes without meaningful labels
 ✗ Forget the "CRA implications" section
 ✗ Leave any part of the diagram unexplained
+✗ Use color as the only way to communicate meaning
+✗ Combine multiple studies or protocol versions without labeling each one
 
 ========================================================================================
 END PROMPT
 ```
+
+### Recommended Mermaid Patterns
+
+**Patient flow or process:** use `flowchart LR` or `flowchart TD` with decision diamonds and labeled branches.
+
+**Visit schedule:** use `timeline` when supported, or a left-to-right flow with visit windows and assessment labels.
+
+**Responsibilities:** use `flowchart LR` with `subgraph` sections for Participant, Site, CRA, Sponsor, and Safety Team.
+
+**Eligibility logic:** use a decision tree and show an explicit `Not eligible / clarify` branch when information is missing.
+
+**Document comparison:** use a two-column Mermaid flow or a comparison table with Study A and Study B clearly separated.
+
+If Mermaid is not rendered by the interface, provide the same content as a clean text diagram and retain the legend and explanation.
 
 ---
 

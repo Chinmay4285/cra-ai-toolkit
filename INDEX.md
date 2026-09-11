@@ -119,6 +119,7 @@ Use this index to find the exact prompt or guide you need for your situation.
 
 | Need | File | Purpose |
 |------|------|---------|
+| Scenario catalog | [08-Training/CRA-SCENARIO-CATALOG.md](08-Training/CRA-SCENARIO-CATALOG.md) | Robust fictional CRA practice cases with escalation and debrief rules |
 | Personal tutor | [08-Training/personal-cra-tutor.md](08-Training/personal-cra-tutor.md) | Adaptive personalized learning |
 | Critical thinking | [08-Training/critical-thinking.md](08-Training/critical-thinking.md) | Develop judgment |
 | Scenario simulator | [08-Training/scenario-simulator.md](08-Training/scenario-simulator.md) | Practice realistic scenarios |

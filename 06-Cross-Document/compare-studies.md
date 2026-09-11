@@ -240,6 +240,38 @@ If the user specifies a mode, adapt the output:
 
 These modes change the emphasis, not the source-grounding rules.
 
+## High-Value Comparison Scenarios
+
+Use these focused scenarios when the user wants more than a generic side-by-side summary:
+
+### Similar Studies, Different Eligibility
+
+Compare two studies in the same disease area and identify thresholds, prior-treatment rules, washout periods, and exclusion criteria that could lead to cross-study enrollment errors.
+
+### Same Visit Name, Different Requirements
+
+Compare visits with the same label, such as "Baseline" or "Week 12," and show differences in timing, windows, assessments, labs, and endpoint collection.
+
+### Different Amendment Status
+
+Compare a current version of one study with an older or pending version of another. Highlight effective dates, version limitations, and what cannot safely be concluded.
+
+### Different Safety Follow-Up
+
+Compare adverse-event collection periods, serious-event reporting, special safety events, laboratory thresholds, and follow-up requirements. Prioritize patient-safety and escalation differences.
+
+### Different Data and Monitoring Expectations
+
+Compare source data requirements, EDC fields, monitoring intensity, remote review, query handling, and essential documents. Identify where a shared site process could create risk.
+
+### Cross-Study Contamination Check
+
+Ask Claude to find requirements that are similar enough to be confused but different enough to matter. Output a "Do not transfer this rule" list for site teams and CRAs.
+
+### Missing-Document Stress Test
+
+Intentionally compare the studies when one SAP, manual, amendment, or monitoring plan is missing. The output must identify what cannot be compared rather than filling gaps with assumptions.
+
 ## Example Prompt
 
 ```text
